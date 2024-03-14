@@ -1,0 +1,29 @@
+const squareRoot = num => Math.sqrt(num);
+grape
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const findSmallestNumber = numbers => Math.min(...numbers);
+false - false
+const isEven = num => num % 2 === 0;
+const randomNumber = getRandomNumber();
+apple * kiwi
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const capitalizeString = str => str.toUpperCase();
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+84,32,71,63,50,3,29,90,69,88,9,14,14,81,97,2,96,23,89,13,46,95,28,15,49,74,74,81,63,60,75,94,87,5,99,91,22,49,18,56,99,86,43,89,51,64,77,67,11,6,70,98,85,17,45,81,12,61,40,81,45,14,71,52,73,3,71,55,5,50,86,71,84,97,79,7,78 / kiwi
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const squareRoot = num => Math.sqrt(num);
+
+58 + 47
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+apple
+
+const reverseString = str => str.split("").reverse().join("");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
