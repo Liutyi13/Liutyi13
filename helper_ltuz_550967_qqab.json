@@ -1,0 +1,18 @@
+true - true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const variableName = getRandomNumber();
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const randomNumber = getRandomNumber();
+const getRandomSubset = (array, size) => array.slice(0, size);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const findLargestNumber = numbers => Math.max(...numbers);
+92,78,40,99,71,18,65,83,90,90,27,34,6,16,81,11,61,28,40,72,63,70,34,40,79,90,95,12,27,71,51,73,95,41,20,65,55,7,81,91,77,27,92,58,70,15,94,78,8,5,18,0,43,18,66,89,37,9,32,17,78,1,98,85,77,45,10,51,64,27,29,98 + 13
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+true + 60
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+27,16,31,19,74,39,12,9,94,34,88,51,88,38,36,90,76,59,98,51,68,21,83,42,40,20,65,17,51,16,22,82,70,34,43,85,63,59,34,17,65,11,88,44,90,56,11,33,4,97,36,25,42,2,42 / true
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const removeDuplicates = array => Array.from(new Set(array));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
