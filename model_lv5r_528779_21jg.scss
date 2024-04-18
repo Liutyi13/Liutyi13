@@ -1,0 +1,12 @@
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+grape
+
+const capitalizeString = str => str.toUpperCase();
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+12 - orange
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
